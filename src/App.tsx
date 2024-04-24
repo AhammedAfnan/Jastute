@@ -1,9 +1,14 @@
+import Navbar from "./components/Navbar"
+
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <>
+    <Navbar/>
+    <div className="min-h-screen relative w-full">
+      <img src="/img4.png" alt="" className="absolute top-0 left-0 w-full h-full object-cover" />
+    </div>
+    </>
   )
 }
 
